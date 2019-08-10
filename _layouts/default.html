@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Hashes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    {% if page.css %}
+    <link rel="stylesheet" href="/assets/css/{{page.css}}.css">
+    {% endif %}
+  </head>
+  <body>
+  {% include nav/component.html %}
+  <div id="main" style="">
+    {{content}}
+  </div>
+{% include _footer.html %}
+</body>
+</html>

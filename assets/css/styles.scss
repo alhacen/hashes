@@ -1,0 +1,36 @@
+---
+---
+.social_media_links img{width:90%;padding-top:5px;}
+.padding-10{padding:10px}
+.white-nav{background-color:#ffffff;}
+.white-nav a{color:black}
+#left_col_header{background-image: url('Images/TitleImage.png');background-size: contain;background-position: center;background-repeat: no-repeat;height:500px;margin:25px}
+#content_img{background-image: url('Images/2.png');background-size: cover;background-repeat: no-repeat;background-size: auto 50%}
+
+#right_col_image{background-image: url('Images/Banner.png');background-size: contain;height:100px;background-position: center;background-repeat: no-repeat;margin:0}
+
+
+@media screen and (max-width: 992px) and (min-width: 600px){
+
+   #right_col_image{margin-top:50px}
+   .social_media_links img{width:80%;padding-top:5px;}
+}
+@media screen and (min-width: 992px) {
+   #right_col_image{margin-top:200px}
+
+   .join_hashes_btn{padding:5 10% 5 10%;font-size:25px}
+
+
+}
+@media screen and (max-width: 600px) {
+
+}
+
+@font-face {
+font-family: heading1;
+src: url(Fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+font-family: heading2;
+src: url(Fonts/Montserrat-SemiBold.ttf);
+}
