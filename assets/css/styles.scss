@@ -1,24 +1,38 @@
 ---
 ---
+.hashes_btn{background-color:black;border-radius:10px;text-align:center;width:400px;color:#f7ba4a;padding:10 50 10 50px}    
+.upcomming-events{background-color: #f5f5f5;padding:20 0 20 0px;margin-top:60px;margin-bottom:0px !important}
+#blog{background-color: #f7ba4a;padding:100 0 100 0px;text-align: center;font-family: heading1;margin:0px}
+#left_col_header img{height:auto;margin-top:25px;width: 100%;}
+#right_col_image img{height:auto;margin-top:25px;width: 60%;}
+#content_img img{height:auto;width: 100%;margin-top:50px;}
+.grey.lighten-4{background-color:#f5f5f5 !important}
+.black{background-color:#000 !important}.black-text{color:#000 !important}
+.white{background-color:#fff !important}.white-text{color:#fff !important}.transparent{background-color:rgba(0,0,0,0) !important}
+.footer-copyright p{padding:10 0 10 0px}
 .social_media_links img{width:90%;padding-top:5px;}
 .padding-10{padding:10px}
 .white-nav{background-color:#ffffff;}
 .white-nav a{color:black}
 .join_hashes_btn{padding:5 10% 5 10%;font-size:25px}
-.register_for_event{text-align:center;font-size:25px}
-
+.hashes_btn{text-align:center;font-size:25px}
+.social_media_links{width:100%;margin-left:auto !important;margin-right:auto !important}
+#main{margin-top:112px !important}
 @media screen and (max-width: 992px) and (min-width: 600px){
    #right_col_image{margin-top:50px}
    .social_media_links img{width:80%;padding-top:5px;}
-   nav{position:fixed;box-shadow: 0 4px 8px 0 rgba(0,0,0,0)}
+   nav{position:fixed;box-shadow: 0 4px 8px 0 rgba(0,0,0,0) !important}
 }
+footer{padding:20 0 0px}
 @media screen and (min-width: 992px) {
+   #header{margin-top:0px}
    #right_col_image{margin-top:200px}
-   nav{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);}
+   nav{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;}
+   .social_media_links{width:50%;}
    
 }
 @media screen and (max-width: 600px) {
-   nav{position:fixed;box-shadow: 0 4px 8px 0 rgba(0,0,0,0)}
+   nav{position:fixed;box-shadow: 0 4px 8px 0 rgba(0,0,0,0) !important;top:0}
    
 }
 
@@ -35,3 +49,8 @@ src: url(/assets/fonts/Montserrat-SemiBold.ttf);
    align-items: center;
    justify-content: center;
 }
+#mobile_nav_links{left: 50%; transform: translateX(-50%);width:100%;z-index:0;align-items:stretch;height:73px!important;text-align:center;position:fixed;top:56px;transition:top .3s}
+#mobile_nav_links{line-height: 56px;}
+#mobile_nav_links ul a{color:black;}
+#mobile_nav_links ul li{ display:inline-block;text-spacing:50px;letter-spacing:2px;padding:2 10 2 10px}
+#mobile_nav_links ul li:hover{background-color:rgba(0,0,0,0.1);-webkit-transition:background-color .3s;transition:background-color .3s;}
