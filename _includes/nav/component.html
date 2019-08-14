@@ -1,10 +1,35 @@
-<nav style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
-    <div class="nav-wrapper white-nav" style="padding:0 15 0 15px;">
-      <a href="#" class="brand-logo "><img src="Images/Logo.png" style="height:100%" class="padding-10"></a>
+<nav style="z-index:1">
+    <div class="nav-wrapper white-nav" style="padding:0 15 0 15px;" style="display: inline-block">
+        <a href="/" class="brand-logo">
+          <b class="center-hv">
+              <img src="assets/images/hashes_logo.png" alt="" class="logo-img" style="height:50px">
+              <span style="color: #666666">
+              &nbsp;Hashes<span class="hide-on-small-only" style="font-weight: lighter">: E-Summit</span>
+          </span>
+          </b>
+        </a>  
+      
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#">Events</a></li>
         <li><a href="#">Blogs</a></li>
         <li><a href="#">About</a></li>
       </ul>
+
     </div>
 </nav>
+<div class="center-all copy-protect white  hide-on-large-only" id="mobile_nav_links">
+    <ul>
+      <a href="#contact"><li>Home</li></a>
+      <a href="#contact"><li>Blog</li></a>
+      <a href="#contact"><li>Contact</li></a>
+    </ul>
+</div>
+<style>
+#mobile_nav_links{left: 50%; transform: translateX(-50%);width:100%;z-index:0;align-items:stretch;height:73px!important;text-align:center;position:fixed;top:56px;transition:top .3s}
+#mobile_nav_links{line-height: 56px;}
+#mobile_nav_links ul a{color:black;}
+#mobile_nav_links ul li{ display:inline-block;text-spacing:50px;letter-spacing:2px;padding:2 10 2 10px}
+#mobile_nav_links ul li:hover{background-color:rgba(0,0,0,0.1);-webkit-transition:background-color .3s;transition:background-color .3s;}
+</style>
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="49px" viewBox="0 0 36 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet" transform="translate(-39.000000, -1205.000000)" fill="#F7BA4A" fill-rule="nonzero">
+            <g id="Second-page" transform="translate(0.000000, 1016.000000)">
+                <g id="Event-desc" transform="translate(35.555556, 88.888889)">
+                    <g id="Location" transform="translate(4.266667, 100.266667)">
+                        <path d="M17.4222222,0 C7.84515173,0 0.0536716846,7.85607778 0.0536716846,17.5124556 C0.0536716846,29.4963222 15.5968229,47.0893389 16.2585864,47.8324278 C16.8801663,48.5304667 17.9654022,48.5292389 18.5858581,47.8324278 C19.2476215,47.0893389 34.7907728,29.4963222 34.7907728,17.5124556 C34.7907728,7.85607778 26.999199,0 17.4222222,0 Z M17.4222222,26.3234611 C12.6037601,26.3234611 8.6837601,22.3708667 8.6837601,17.5124556 C8.6837601,12.6540444 12.6038538,8.70154444 17.4222222,8.70154444 C22.2405907,8.70154444 26.1605907,12.6541389 26.1605907,17.51255 C26.1605907,22.3709611 22.2405907,26.3234611 17.4222222,26.3234611 Z" id="icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
