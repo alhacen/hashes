@@ -1,7 +1,7 @@
 # Hashes Official Site Repo.
 
 Webpage for Hashes: Programming Club @ Jamia Millia Islamia  
-**This is Official Repo of Hashes**  
+ 
 Every Contributor will get mention in website's Team Section.  
 Major Contributor will get mention in website's Footer.  
 
