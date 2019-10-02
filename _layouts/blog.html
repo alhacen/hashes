@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Hashes: Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    {% if page.css %}
+    <link rel="stylesheet" href="/assets/css/{{page.css}}.css">
+    {% endif %}
+  </head>
+  <body>
+  <!-- {% include nav/component.html %} -->
+  <div id="main" >
+    <div id="container" class="container card white">
+      <div id="bg-img">
+        <img id="clip" src="/assets/images/blog_bg.png" width="100%">
+        <div style="backgron">
+          <a href="#!">
+            <img id="dp" src="/assets/images/dp.jpg" style="border-radius:50px;width:100px;position:relative;left:50%;right:50%;top:-50px;transform: translate(-50%);">
+          </a>
+        </div>
+        <div>
+          <p style="margin-top:0px;position:relative;top:-20px" class="center">
+            <a href="#!">alhacen</a>
+          </p>
+        </div>
+        <div style="padding:25px">{{content}}</div>
+      </div>
+    </div>
+  </div>
+<!-- {% include _footer.html %} -->
+</body>
+</html>
+<style>
+
+#container{margin-top:5px;}
+#main{width:100%;position:absolute}
+.card { /* Add shadows to create the "card" effect */ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; }
+.white{background-color:#fff !important}
+.orange.darken-1{background-color:#fb8c00 !important}
